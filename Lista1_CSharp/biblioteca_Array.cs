@@ -19,5 +19,17 @@ namespace Biblioteca_Array
             return array;
         }
 
+        public static int SomarArray(int[] array)
+        {
+            int soma = 0;
+            
+            foreach(var item in array)
+            {
+                soma += item;
+            }
+
+            return soma;
+        }
+
     }
 }
