@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace bibliotecaArray
+namespace biblioteca_Mat
 {
 
     public static class Matematica
@@ -31,9 +31,5 @@ namespace bibliotecaArray
         }
     }
 
-    public static class Array
-    {
-
-    }
-   
+    
 }
