@@ -2,8 +2,8 @@
 using Biblioteca_Array;
 
 
-namespace Lista1_CSharp;
-public class Exercicio1
+namespace ex1;
+public class Exercicio_1
 {
     private static void Main()
     {

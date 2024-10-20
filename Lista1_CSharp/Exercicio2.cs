@@ -19,7 +19,8 @@ namespace ex2
             }
 
             double MaiorElemento = ArrayFunctions.MaiorElementDouble(MyArray);
-            Console.WriteLine($"\n O maior elemento do array é: {MaiorElemento}");
+            Console.WriteLine($"\n O maior elemento do array é: {MaiorElemento:F2}");
+                        
 
         }
 
