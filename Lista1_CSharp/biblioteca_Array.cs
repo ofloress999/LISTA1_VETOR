@@ -25,7 +25,16 @@ namespace Biblioteca_Array
             }
             return soma;
         }
-        
+
+        // Mostra vetor
+        public static void mostraVetor(int[] vetor)
+        {
+            for (int i = 0; i < vetor.Length; i++)
+            {
+                Console.Write($"|{vetor[i]}");
+            }
+        }
+
         // Gera um array com elementos double
         public static double[] GerarDoubleArray(int number)
         {
@@ -94,5 +103,17 @@ namespace Biblioteca_Array
             return vetorDNA;  // Retorna o vetor gerado com as bases de DNA
         }
 
+        public static void InverterVetor(int[] vetor)
+        {
+            for (int i = 0; i < vetor.Length / 2; i++)
+            {
+
+                int temp = vetor[i];
+                vetor[i] = vetor[vetor.Length - 1 - i];
+                vetor[vetor.Length - 1 - i] = temp;
+            }
+
+
+        }
     }
 }
